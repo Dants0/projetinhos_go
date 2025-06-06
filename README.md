@@ -8,11 +8,11 @@ A proposta é evoluir a familiaridade com Go através da prática, resolvendo pr
 
 ## 📚 Projetos incluídos
 
-| Projeto         | Descrição                                                                 | Conceitos explorados                                  |
-|-----------------|---------------------------------------------------------------------------|-------------------------------------------------------|
-| cliCalculator   | Calculadora de linha de comando (CLI)                                     | `os.Args`, funções, `switch`, parsing com `strconv`   |
-| toDoList        | To-do list persistente via terminal                                       | structs, slices, arquivos JSON, CLI modular           |
-| conversorTemperatura  | Conversor de temperatura via terminal                               | `os.Args`, funções, `switch`, `strconv`, structs      |
+| Projeto              | Descrição                             | Conceitos explorados                                |
+| -------------------- | ------------------------------------- | --------------------------------------------------- |
+| cliCalculator        | Calculadora de linha de comando (CLI) | `os.Args`, funções, `switch`, parsing com `strconv` |
+| toDoList             | To-do list persistente via terminal   | structs, slices, arquivos JSON, CLI modular         |
+| conversorTemperatura | Conversor de temperatura via terminal | `os.Args`, funções, `switch`, `strconv`, structs    |
 
 ---
 
@@ -36,4 +36,7 @@ Cada pasta contém um projeto independente.
 1. Navegue até o diretório desejado:
 
 ```bash
-cd calculator-cli
+cd projeto_cliCalculator
+cd projeto_conversorTemperatura
+cd projeto_toDoList
+```
