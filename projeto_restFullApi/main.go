@@ -2,14 +2,19 @@ package main
 
 import (
 	"fmt"
-	"ioutil"
 	"net/http"
 
 	"github.com/gorilla/mux"
 )
 
+func HandlerHello(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello, World!")
+}
 
-func main(){
+func main() {
 	router := mux.NewRouter()
-	router.
+	router.HandleFunc("/", HandlerHello)
+
+	fmt.Println("Server listening on port 8080")
+	http.ListenAndServe(":8080", router)
 }

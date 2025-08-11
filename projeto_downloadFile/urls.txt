@@ -1,0 +1,3 @@
+		https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+		https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png
+		https://i.ibb.co/dscwv8gc/l.jpg
